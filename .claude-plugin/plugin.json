@@ -1,0 +1,10 @@
+{
+  "name": "gw",
+  "description": "제주연구원 그룹웨어 도우미 — 본인 계정으로 회의실 예약, 근태·출장·증명서 기안전 준비와 확인 코드 상신, 본인 결재함·결재 본문 읽기. 런타임(gw)은 jaix-setup 이 원내 위치에서 설치한다.",
+  "author": {
+    "name": "제주연구원 AI센터",
+    "url": "https://github.com/jeju-inst/jaix-gw"
+  },
+  "homepage": "https://github.com/jeju-inst/jaix-gw",
+  "license": "MIT"
+}
