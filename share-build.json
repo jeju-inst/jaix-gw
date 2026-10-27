@@ -1,7 +1,7 @@
 {
   "source_repo": "jeju-inst/ji-gw-ai",
-  "source_sha": "f49847509a85293fe4c91ff131ad8fea77177dac",
-  "runtime_version": "2026.10.27.1",
+  "source_sha": "437e1774d7df2a9eb5ba4c831bd53abd420e1042",
+  "runtime_version": "2026.10.27.2",
   "runtime_latest": "https://jaix.namun.net/gw/latest.json",
-  "content_hash": "2dd354f72d4b677aaca45cf364497a1c8ac6986ef1f803250286284b95b84c11"
+  "content_hash": "604a1976532d2a4f3209d8e6d2b2681443c599d4b599af73db6d4a31db223430"
 }
