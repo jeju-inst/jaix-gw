@@ -1,0 +1,18 @@
+name: calver
+
+# main 에 동기화 커밋이 들어올 때마다 날짜 버전 태그(vYYYY.MM.DD.N, KST)를 단다.
+# jaix-kit 갱신 봇이 이 태그를 찾아 잠금을 올린다 (https://github.com/jeju-inst/jaix-kit).
+# 이 파일도 ji-gw-ai 의 share/jaix-gw/ 에서 자동 생성된다 — 여기서 고치지 않는다.
+
+on:
+  push:
+    branches: [main]
+
+concurrency: calver-tag
+
+jobs:
+  tag:
+    # 다른 저장소 코드가 이 저장소 태그 권한(contents: write)을 쥐므로 커밋으로 고정한다.
+    uses: jeju-inst/jaix-kit/.github/workflows/calver-tag.yml@fd8db15d7f0c377855f57864958ff5c4f7bdc2ce
+    permissions:
+      contents: write
